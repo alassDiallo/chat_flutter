@@ -20,6 +20,8 @@ export default function GenerationOrd(props) {
 
     console.log(props.medicament)
     return (
+        <>
+        <button className="btn btn-info">imprimer</button>
        <div className="col-md-8 justify-content-center col-offset-4 border border-dark rounded"style={{marginLeft: "100px",padding:50,height:"100%"}} >
         <div className="container row" style={{width: "100%"}}>
         <div className="col-md-6 pull-left" style={{}}>
@@ -84,6 +86,7 @@ export default function GenerationOrd(props) {
         </div>
     </div>
    </div>
+   </>
 
             );
    

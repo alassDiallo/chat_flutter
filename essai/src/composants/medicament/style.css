@@ -1,0 +1,21 @@
+.medoc{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+    padding: 30px 20px 10px 20px;
+    box-shadow: red;
+    border-radius: 10px;
+}
+
+.mod{
+
+    background:black;
+    height: 1000px;
+    opacity: 0.2;
+
+}
+.posologie{
+    font-size: 12px;
+    opacity: 0.6;
+}

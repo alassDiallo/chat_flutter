@@ -91,7 +91,7 @@ const Ordonnance = () => {
   const dragHoverTeamBG = isOver ? "bg-warning" : "bg-light";
   const dragHoverPlayerBG = isPlayerOver ? "bg-warning" : "bg-light";
   const bouton = team.length>0 && <button className="btn btn-success form-control mt-4 mb-4" onClick={genererPDF}>valider</button>
-  const comp = generer?<GenerationOrd medicament={team} patient={patient} />:<div className="row">
+  const comp = generer?<GenerationOrd medicament={team} patient={patient} total={prix.reduce(reducer)} />:<div className="row">
   <div className="">
    
     <div className="row justify-content-md-center" >

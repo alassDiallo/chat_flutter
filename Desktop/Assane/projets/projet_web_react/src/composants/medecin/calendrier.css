@@ -1,0 +1,18 @@
+.fc-direction-ltr .fc-daygrid-event.fc-event-end, .fc-direction-rtl .fc-daygrid-event.fc-event-start{
+    background: blue;
+    color: white;
+  }
+  .fc-scrollgrid-sync-inner{
+    color:black;
+    /* background: black; */
+  }
+  
+  .fc-col-header-cell{
+    color: black;
+    /* background: black; */
+  }
+  .fc .fc-col-header-cell-cushion{
+    font-size: 15px;
+      color: black;
+  }
+  

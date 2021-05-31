@@ -158,6 +158,14 @@ export default class ChatContent extends Component {
   
   }
 
+
+  componentWillUnmount(){
+    this.setState({
+      messagesEndRef:createRef(null)
+    })
+
+  }
+
   envoyer = (e)=>{
     e.preventDefault();
     console.log('valider')
